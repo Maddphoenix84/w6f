@@ -1,0 +1,23 @@
+.header {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: aqua;
+}
+
+.burger {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-self: end;
+  align-self: center;
+}
+
+.profile {
+  display: grid;
+  background-color: chartreuse;
+}
+
+.phoenix {
+  border-radius: 25px;
+}
+
+/*# sourceMappingURL=index.css.map */
