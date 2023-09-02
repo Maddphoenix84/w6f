@@ -1,23 +1,70 @@
+body {
+  background: radial-gradient(circle, #000080, #800080, #FF1493);
+  display: grid;
+  height: 100vh;
+  font-family: sans-serif;
+  margin: 0;
+}
+
 .header {
   display: grid;
   grid-template-columns: auto auto;
-  background-color: aqua;
+  background-color: rgb(2, 95, 95);
+  width: 95%;
+  height: 90%;
+  place-self: center;
+  border-radius: 25px;
+}
+
+.phoenix {
+  border-radius: 25px;
+  display: grid;
+  width: 200px;
+  place-self: center;
 }
 
 .burger {
   display: grid;
   grid-template-columns: auto auto auto;
-  justify-self: end;
-  align-self: center;
+  place-self: center;
+}
+
+.main {
+  background-color: rgb(2, 95, 95);
+  width: 95%;
+  place-self: center;
+  height: 100%;
+  border-radius: 25px;
 }
 
 .profile {
   display: grid;
-  background-color: chartreuse;
+  grid-template-rows: 1fr 1fr;
+  background-color: rgb(2, 95, 95);
+  border-radius: 25px;
+  width: 95%;
+  height: 15%;
+  place-content: center;
+  place-items: center;
 }
 
-.phoenix {
+.details {
+  background-color: rgb(2, 95, 95);
+  width: 95%;
+  height: 70%;
+  display: grid;
+  justify-items: center;
   border-radius: 25px;
+}
+
+.james {
+  border-radius: 50%;
+}
+
+.footer {
+  background-color: rgb(2, 95, 95);
+  display: grid;
+  place-self: center;
 }
 
 /*# sourceMappingURL=index.css.map */
