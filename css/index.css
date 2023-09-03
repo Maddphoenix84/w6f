@@ -1,3 +1,11 @@
+.header {
+  background-color: rgb(2, 95, 95);
+}
+
+.footer {
+  background-color: rgb(2, 95, 95);
+}
+
 body {
   background: radial-gradient(circle, #000080, #800080, #FF1493);
   display: grid;
@@ -65,6 +73,113 @@ body {
   background-color: rgb(2, 95, 95);
   display: grid;
   place-self: center;
+}
+
+/* tablet  */
+@media (min-width: 768px) and (max-width: 1023px) {
+  body {
+    background: radial-gradient(circle, #000080, #800080, #FF1493);
+    display: grid;
+    height: 100vh;
+    font-family: sans-serif;
+    margin: 0;
+  }
+  .phoenix {
+    border-radius: 50%;
+    display: grid;
+    width: 200px;
+    justify-self: start;
+  }
+  .burger {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    place-self: center;
+  }
+  .main {
+    background-color: rgb(2, 95, 95);
+    width: 95%;
+    place-self: center;
+    height: 100%;
+    border-radius: 25px;
+  }
+  .profile {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    background-color: rgb(2, 95, 95);
+    border-radius: 25px;
+    width: 95%;
+    height: 15%;
+    justify-items: self-start;
+  }
+  .acecert {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 500px;
+  }
+  .details {
+    background-color: rgb(2, 95, 95);
+    width: 700px;
+    height: 900px;
+    display: grid;
+    justify-items: center;
+    border-radius: 25px;
+    grid-template-columns: auto;
+    justify-items: start;
+  }
+  .james {
+    border-radius: 50%;
+    height: 400px;
+    width: 302px;
+    margin: 40px;
+  }
+  .dtwo {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 200px;
+    height: 200px;
+    margin: 30px;
+    justify-items: center;
+    margin: 30px;
+  }
+  .footer {
+    justify-self: normal;
+    width: 760px;
+    margin: 20px;
+  }
+}
+/*desktop   */
+@media (min-width: 1024px) {
+  body {
+    background: radial-gradient(circle, #000080, #800080, #FF1493);
+    display: grid;
+    height: 100vh;
+    font-family: sans-serif;
+    margin: 0;
+  }
+  .phoenix {
+    place-self: self-start;
+    height: 400px;
+    width: 800px;
+    border-radius: 50% 1%;
+  }
+  .burger {
+    align-self: stretch;
+    justify-self: self-end;
+  }
+  .details {
+    background-color: rgb(2, 95, 95);
+  }
+  .description {
+    display: grid;
+    grid-auto-columns: auto;
+    width: 310px;
+    justify-self: baseline;
+  }
+  .dtwo {
+    justify-self: self-end;
+    width: 200px;
+    height: 100px;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */
